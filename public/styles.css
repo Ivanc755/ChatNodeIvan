@@ -1,0 +1,115 @@
+/* Estilos generales */
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Encabezados */
+h2 {
+  font-size: 20px;
+  padding: 12px;
+  text-align: center;
+  color: #b7fc09;
+  margin: 0;
+}
+
+/* Panel de bienvenida */
+#panel-bienvenida {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#panel-bienvenida input {
+  padding: 10px;
+  width: 250px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Caja principal del chat */
+#app-chat {
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.05);
+  background: #fff;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* Ventana de mensajes */
+#ventana-mensajes {
+  height: 300px;
+  overflow-y: auto;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+/* Mensajes */
+#output p {
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 6px;
+  background: #e9f1fb;
+  color: #333;
+}
+
+#output strong {
+  color: #337ab7;
+}
+
+/* Estado escribiendo */
+#escribiendo-mensaje p {
+  color: #aaa;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #337ab7;
+}
+
+/* Botones */
+button {
+  background: #337ab7;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  padding: 12px 0;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #246AA6;
+}
+
+/* Estilo de burbuja */
+.nube {
+  background-color: #337ab7;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 18px;
+  display: inline-block;
+  margin: 5px 0;
+}
